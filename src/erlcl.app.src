@@ -1,0 +1,12 @@
+{application, erlcl,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlcl_app, []}},
+  {env, []}
+ ]}.
